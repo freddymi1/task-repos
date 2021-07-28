@@ -1,0 +1,92 @@
+{
+    
+    "task": [
+      {
+        "id": 1,
+        "name": "Task 1",
+        "description": "Description du task 1",
+        "tarif": 120,
+        "travauxId": 1,
+        "piece": 3
+      },
+      {
+        "id": 2,
+        "name": "Task 2",
+        "description": "Description du task 2",
+        "tarif": 50,
+        "travauxId": 1,
+        "piece": 1
+      },
+      {
+        "id": 3,
+        "name": "Task 3",
+        "description": "Description du task 3",
+        "tarif": 100,
+        "travauxId": 1,
+        "piece": 2
+      },
+      {
+        "id": 4,
+        "name": "Task 1",
+        "description": "Description du task 4",
+        "tarif": 150,
+        "travauxId": 2,
+        "piece": 1
+      }
+    ],
+    "pieces": [
+      {
+        "id": 1,
+        "name": "Piece 1",
+        "photo": "",
+        "tarif": 120,
+        "prix": 450,
+        "tache": 4
+      },
+      {
+        "id": 2,
+        "name": "Piece 2",
+        "photo": "",
+        "tarif": 120,
+        "prix": 200,
+        "tache": 4
+      },
+      {
+        "id": 3,
+        "name": "Piece 3",
+        "photo": "",
+        "tarif": 120,
+        "prix": 150,
+        "tache": 4
+      }
+    ],
+    "travaux": [
+      {
+        "id": 1,
+        "libele": "Travaux x",
+        "description": "Desc travau 1",
+        "task": {
+            "id": 1,
+            "name": "task 1"
+        }
+      },
+      {
+        "id": 2,
+        "libele": "Travaux 1",
+        "description": "Desc travau 1",
+        "task": {
+            "id": 2,
+            "name": "task 2"
+        }
+      },
+      {
+        "id": 3,
+        "libele": "Travaux u",
+        "description": "Desc travau u",
+        "task": {
+            "id": 2,
+            "name": "task 2"
+        }
+      }
+    ]
+  }
