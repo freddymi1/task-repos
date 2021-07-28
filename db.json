@@ -1,5 +1,24 @@
 {
-    
+    "travaux": [
+      {
+        "id": 1,
+        "libele": "Travaux x",
+        "description": "Desc travau 1",
+        "task":1
+      },
+      {
+        "id": 2,
+        "libele": "Travaux 1",
+        "description": "Desc travau 1",
+        "task": 2
+      },
+      {
+        "id": 3,
+        "libele": "Travaux u",
+        "description": "Desc travau u",
+        "task": 4
+      }
+    ],
     "task": [
       {
         "id": 1,
@@ -27,11 +46,27 @@
       },
       {
         "id": 4,
-        "name": "Task 1",
+        "name": "Task 4",
         "description": "Description du task 4",
         "tarif": 150,
         "travauxId": 2,
         "piece": 1
+      },
+      {
+        "id": 5,
+        "name": "Task 5",
+        "description": "Description du task 5",
+        "tarif": 150,
+        "travauxId": 2,
+        "piece": 1
+      },
+      {
+        "id": 464,
+        "name": "Task 6",
+        "description": "Description du task 6",
+        "tarif": 150,
+        "travauxId": 2,
+        "piece": 2
       }
     ],
     "pieces": [
@@ -58,35 +93,6 @@
         "tarif": 120,
         "prix": 150,
         "tache": 4
-      }
-    ],
-    "travaux": [
-      {
-        "id": 1,
-        "libele": "Travaux x",
-        "description": "Desc travau 1",
-        "task": {
-            "id": 1,
-            "name": "task 1"
-        }
-      },
-      {
-        "id": 2,
-        "libele": "Travaux 1",
-        "description": "Desc travau 1",
-        "task": {
-            "id": 2,
-            "name": "task 2"
-        }
-      },
-      {
-        "id": 3,
-        "libele": "Travaux u",
-        "description": "Desc travau u",
-        "task": {
-            "id": 2,
-            "name": "task 2"
-        }
       }
     ]
   }
